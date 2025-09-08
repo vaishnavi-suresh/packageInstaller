@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 name = "packageinstaller"
 version = "0.1.0"
 description = ""
@@ -22,5 +22,5 @@ packages = [{include = "packageinstaller"}]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[project.scripts]
+[tool.poetry..scripts]
 depinstaller = "packageinstaller.cli:auth"
