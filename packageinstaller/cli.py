@@ -13,7 +13,7 @@ import sys
 
 def auth() -> None:
     """A simple CLI that echoes the provided prompt."""
-    list_string = ""\
+    list_string = ""
 
     prompt = input("what would you like to build? spare no detail ")
     stream = generate(
